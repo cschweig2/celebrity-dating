@@ -1,4 +1,4 @@
-.hidden-option .card{
+.hidden-option, .card{
   display: none;
 }
 
