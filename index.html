@@ -8,35 +8,46 @@
   <title>Celebrity Dating Quiz</title>
 </head>
 <body>
-  <h1>Celebrity Dating Quiz</h1>
-  <p>Give some information about yourself and find who you're compatible with!</p>
-  <form id="formOne">
-    <div class="form-group">
-      <label for="name">What is your name?</label>
-      <input id="name" class="form-control" type="text">
+  <div class="container">
+    <h1 class="blinking">Celebrity Dating Quiz</h1>
+    <p>Give some information about yourself and find who you're compatible with!</p>
+    <form id="formOne">
+      <div class="form-group">
+        <label for="name">What is your name?</label>
+        <input id="name" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="age">How old are you?</label>
+        <input id="age" class="form-control" type="number">
+      </div>
+      <div class="form-group">
+        <label for="gender">What is your preferred gender?</label>
+        <select id="gender" class="form-control">
+          <option class="hidden-option" selected disabled hidden value=""></option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Either</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="hair">What is your favorite color of hair?</label>
+        <select id="hair" class="form-control">
+          <option class="hidden-option" selected disabled hidden value=""></option>
+          <option>Brown</option>
+          <option>Blonde</option>
+          <option>Black</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <div class="row">
+      <div class="col-6">
+        
+      </div>
+      <div class="col-6">
+        
+      </div>
     </div>
-    <div class="form-group">
-      <label for="age">How old are you?</label>
-      <input id="age" class="form-control" type="number">
-    </div>
-    <div class="form-group">
-      <label for="gender">What is your preferred gender?</label>
-      <select id="gender" class="form-control">
-        <option class="hidden-option" selected disabled hidden value=""></option>
-        <option>Male</option>
-        <option>Female</option>
-        <option>Either</option>
-      </select>
-    </div>
-    <div class="form-group">
-      <label for="hair">What is your favorite color of hair?</label>
-      <select id="hair" class="form-control">
-        <option class="hidden-option" selected disabled hidden value=""></option>
-        <option>Brown</option>
-        <option>Blonde</option>
-        <option>Black</option>
-      </select>
-    </div>
-  </form>
+  </div>
 </body>
 </html>
